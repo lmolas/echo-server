@@ -15,6 +15,7 @@ RUN set -eux && make bin && chmod +x ./echo-server
 FROM gcr.io/distroless/base:latest
 
 COPY --from=BUILD /src/echo-server /usr/bin/echo-server
+COPY --from=BUILD src/static/* /static/
 
 WORKDIR /
 

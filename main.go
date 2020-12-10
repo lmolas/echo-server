@@ -30,6 +30,7 @@ func main() {
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 
+	e.Static("/static", "/static/")
 	e.GET("/request", routes.GetRequest)
 	e.GET("/swagger/*", echoSwagger.WrapHandler)
 	e.GET("/swagger.json", routes.GetSwagger)
