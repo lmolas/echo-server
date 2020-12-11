@@ -128,20 +128,6 @@ var demoBody = json.RawMessage([]byte(`[
       "ad",
       "id"
     ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Rosemarie Chaney"
-      },
-      {
-        "id": 1,
-        "name": "Greta Bishop"
-      },
-      {
-        "id": 2,
-        "name": "Cathy Thomas"
-      }
-    ],
     "greeting": "Hello, Turner Bradshaw! You have 3 unread messages.",
     "favoriteFruit": "apple"
   },
@@ -172,20 +158,6 @@ var demoBody = json.RawMessage([]byte(`[
       "minim",
       "enim",
       "mollit"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Mckay Powers"
-      },
-      {
-        "id": 1,
-        "name": "Blair Rocha"
-      },
-      {
-        "id": 2,
-        "name": "Benita Talley"
-      }
     ],
     "greeting": "Hello, Edwards Miranda! You have 4 unread messages.",
     "favoriteFruit": "banana"
@@ -218,20 +190,6 @@ var demoBody = json.RawMessage([]byte(`[
       "in",
       "dolore"
     ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "West Barker"
-      },
-      {
-        "id": 1,
-        "name": "Puckett Collier"
-      },
-      {
-        "id": 2,
-        "name": "Terra Carson"
-      }
-    ],
     "greeting": "Hello, Shana Bartlett! You have 1 unread messages.",
     "favoriteFruit": "apple"
   },
@@ -262,20 +220,6 @@ var demoBody = json.RawMessage([]byte(`[
       "in",
       "eiusmod",
       "in"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Jacobson Kent"
-      },
-      {
-        "id": 1,
-        "name": "Florence Stevens"
-      },
-      {
-        "id": 2,
-        "name": "Letha Noble"
-      }
     ],
     "greeting": "Hello, Nadia Williams! You have 4 unread messages.",
     "favoriteFruit": "strawberry"
@@ -353,246 +297,7 @@ var demoBody = json.RawMessage([]byte(`[
       "anim",
       "qui"
     ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Bridges Cote"
-      },
-      {
-        "id": 1,
-        "name": "Osborn Kidd"
-      },
-      {
-        "id": 2,
-        "name": "Contreras Wall"
-      }
-    ],
     "greeting": "Hello, Bonnie Herman! You have 2 unread messages.",
-    "favoriteFruit": "apple"
-  },
-  {
-    "_id": "5fd1fa7e36da714729f30271",
-    "index": 8,
-    "guid": "f9727fd2-e2ec-4d96-bdce-fb4de5d429d8",
-    "isActive": false,
-    "balance": "$1,168.86",
-    "picture": "http://placehold.it/32x32",
-    "age": 32,
-    "eyeColor": "green",
-    "name": "Darcy Weber",
-    "gender": "female",
-    "company": "COMCUR",
-    "email": "darcyweber@comcur.com",
-    "phone": "+1 (829) 586-3085",
-    "address": "384 Baycliff Terrace, Harold, South Dakota, 8684",
-    "about": "Ex nisi ullamco ea esse. Commodo in labore tempor est adipisicing aliqua pariatur velit irure ipsum. Enim velit ea officia officia ad aliquip irure Lorem. Sunt ullamco amet laboris in aliquip.\r\n",
-    "registered": "2017-03-20T08:27:59 -01:00",
-    "latitude": -81.910668,
-    "longitude": -83.086467,
-    "tags": [
-      "excepteur",
-      "duis",
-      "irure",
-      "exercitation",
-      "quis",
-      "do",
-      "occaecat"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Snyder Waters"
-      },
-      {
-        "id": 1,
-        "name": "Benjamin Nash"
-      },
-      {
-        "id": 2,
-        "name": "Garner Hooper"
-      }
-    ],
-    "greeting": "Hello, Darcy Weber! You have 5 unread messages.",
-    "favoriteFruit": "apple"
-  },
-  {
-    "_id": "5fd1fa7e2bc24208323fb01a",
-    "index": 9,
-    "guid": "1388737f-d427-449d-93c6-4d933e833ab5",
-    "isActive": true,
-    "balance": "$3,468.37",
-    "picture": "http://placehold.it/32x32",
-    "age": 23,
-    "eyeColor": "blue",
-    "name": "Sonya Cohen",
-    "gender": "female",
-    "company": "YOGASM",
-    "email": "sonyacohen@yogasm.com",
-    "phone": "+1 (840) 414-2253",
-    "address": "572 Lake Place, Hessville, Puerto Rico, 9837",
-    "about": "Eiusmod exercitation proident excepteur sunt et et ut. Excepteur sint esse aute Lorem est quis esse eu commodo sunt aliquip. Minim enim ad exercitation ea culpa sint sit dolor proident do dolor occaecat. Eiusmod excepteur consequat irure deserunt dolore consequat proident nisi sint ex dolore amet et consectetur. Elit ex est est occaecat laborum commodo esse pariatur irure nostrud nulla velit magna.\r\n",
-    "registered": "2020-02-26T11:29:46 -01:00",
-    "latitude": 7.074558,
-    "longitude": 65.884986,
-    "tags": [
-      "nisi",
-      "exercitation",
-      "non",
-      "non",
-      "deserunt",
-      "fugiat",
-      "sit"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Alford House"
-      },
-      {
-        "id": 1,
-        "name": "Sharlene Alvarado"
-      },
-      {
-        "id": 2,
-        "name": "Terrell Gould"
-      }
-    ],
-    "greeting": "Hello, Sonya Cohen! You have 2 unread messages.",
-    "favoriteFruit": "strawberry"
-  },
-  {
-    "_id": "5fd1fa7e401551bbc53bfb66",
-    "index": 10,
-    "guid": "336f0357-e6bc-4ff5-84fd-57a2096a83d7",
-    "isActive": false,
-    "balance": "$1,063.96",
-    "picture": "http://placehold.it/32x32",
-    "age": 33,
-    "eyeColor": "green",
-    "name": "Murphy Whitney",
-    "gender": "male",
-    "company": "COMSTRUCT",
-    "email": "murphywhitney@comstruct.com",
-    "phone": "+1 (949) 502-3237",
-    "address": "119 Sheffield Avenue, Drytown, Maine, 1986",
-    "about": "Nulla sunt ullamco enim reprehenderit exercitation consectetur amet exercitation fugiat amet. Do veniam veniam sit ullamco aliquip culpa consequat fugiat sit consequat. Est duis consequat occaecat et.\r\n",
-    "registered": "2020-12-04T03:20:29 -01:00",
-    "latitude": 59.725137,
-    "longitude": 90.17506,
-    "tags": [
-      "quis",
-      "enim",
-      "aliquip",
-      "irure",
-      "qui",
-      "culpa",
-      "consectetur"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Marian Oliver"
-      },
-      {
-        "id": 1,
-        "name": "Iva Jacobson"
-      },
-      {
-        "id": 2,
-        "name": "Hebert Carney"
-      }
-    ],
-    "greeting": "Hello, Murphy Whitney! You have 2 unread messages.",
-    "favoriteFruit": "apple"
-  },
-  {
-    "_id": "5fd1fa7e353e59d77bce7836",
-    "index": 11,
-    "guid": "afe65b36-27a4-48e3-ad02-5c5c538cf665",
-    "isActive": false,
-    "balance": "$3,459.84",
-    "picture": "http://placehold.it/32x32",
-    "age": 23,
-    "eyeColor": "green",
-    "name": "Sadie Holloway",
-    "gender": "female",
-    "company": "SOPRANO",
-    "email": "sadieholloway@soprano.com",
-    "phone": "+1 (804) 574-2807",
-    "address": "166 Bowne Street, Eggertsville, Alaska, 2220",
-    "about": "Dolore cillum magna nostrud magna fugiat sint nulla nostrud labore. Officia do veniam Lorem nostrud mollit magna ut eiusmod tempor quis excepteur minim. Laboris adipisicing aliquip consequat ut labore incididunt voluptate ad sint nostrud cupidatat aliqua Lorem qui.\r\n",
-    "registered": "2018-04-09T05:03:03 -02:00",
-    "latitude": -40.84345,
-    "longitude": -171.494485,
-    "tags": [
-      "ex",
-      "magna",
-      "do",
-      "esse",
-      "dolore",
-      "aute",
-      "deserunt"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Blanche Mckenzie"
-      },
-      {
-        "id": 1,
-        "name": "Slater Bennett"
-      },
-      {
-        "id": 2,
-        "name": "Bridgette Gillespie"
-      }
-    ],
-    "greeting": "Hello, Sadie Holloway! You have 2 unread messages.",
-    "favoriteFruit": "apple"
-  },
-  {
-    "_id": "5fd1fa7e9e188c20a2918b17",
-    "index": 12,
-    "guid": "820f8ca1-ae80-42d3-acb7-581b78c0309f",
-    "isActive": false,
-    "balance": "$2,626.93",
-    "picture": "http://placehold.it/32x32",
-    "age": 33,
-    "eyeColor": "green",
-    "name": "Cathleen Smith",
-    "gender": "female",
-    "company": "PETICULAR",
-    "email": "cathleensmith@peticular.com",
-    "phone": "+1 (893) 418-3026",
-    "address": "568 Elm Avenue, Fillmore, Tennessee, 3842",
-    "about": "Proident consequat aliqua proident proident. Pariatur ex incididunt ex nisi excepteur nostrud sint adipisicing laboris eiusmod. Id sunt nostrud incididunt ad quis officia proident dolor labore nostrud. Sunt sint aliqua aute id ea dolore ipsum dolore culpa pariatur qui Lorem esse voluptate. Qui ut proident aliquip sunt nisi sint amet aliquip ea enim ut adipisicing exercitation. Eiusmod magna consectetur aliquip reprehenderit aliqua do labore amet est. Cillum non aliquip consectetur sint non nisi.\r\n",
-    "registered": "2014-06-21T01:21:54 -02:00",
-    "latitude": 7.749434,
-    "longitude": -23.149009,
-    "tags": [
-      "anim",
-      "minim",
-      "ipsum",
-      "reprehenderit",
-      "labore",
-      "laborum",
-      "aliqua"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Cherry Kennedy"
-      },
-      {
-        "id": 1,
-        "name": "Tammie Pace"
-      },
-      {
-        "id": 2,
-        "name": "Jacqueline Key"
-      }
-    ],
-    "greeting": "Hello, Cathleen Smith! You have 7 unread messages.",
     "favoriteFruit": "apple"
   },
   {
@@ -622,20 +327,6 @@ var demoBody = json.RawMessage([]byte(`[
       "proident",
       "eiusmod",
       "ex"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Wilcox Watkins"
-      },
-      {
-        "id": 1,
-        "name": "Randi Tran"
-      },
-      {
-        "id": 2,
-        "name": "Marci Langley"
-      }
     ],
     "greeting": "Hello, Hanson Douglas! You have 1 unread messages.",
     "favoriteFruit": "strawberry"
@@ -668,20 +359,6 @@ var demoBody = json.RawMessage([]byte(`[
       "dolore",
       "Lorem"
     ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Everett Sykes"
-      },
-      {
-        "id": 1,
-        "name": "Sheila Knox"
-      },
-      {
-        "id": 2,
-        "name": "Heidi Petty"
-      }
-    ],
     "greeting": "Hello, Carrie Jenkins! You have 10 unread messages.",
     "favoriteFruit": "banana"
   },
@@ -713,20 +390,6 @@ var demoBody = json.RawMessage([]byte(`[
       "et",
       "et"
     ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Emma Stone"
-      },
-      {
-        "id": 1,
-        "name": "Rosa Phillips"
-      },
-      {
-        "id": 2,
-        "name": "Esther Baldwin"
-      }
-    ],
     "greeting": "Hello, Webb Barber! You have 6 unread messages.",
     "favoriteFruit": "banana"
   },
@@ -757,20 +420,6 @@ var demoBody = json.RawMessage([]byte(`[
       "est",
       "duis",
       "id"
-    ],
-    "friends": [
-      {
-        "id": 0,
-        "name": "Brennan Orr"
-      },
-      {
-        "id": 1,
-        "name": "Cameron Norris"
-      },
-      {
-        "id": 2,
-        "name": "Frazier Higgins"
-      }
     ],
     "greeting": "Hello, Lina Dillon! You have 6 unread messages.",
     "favoriteFruit": "banana"
